@@ -10,7 +10,6 @@
 all: copy
 
 copy: 
-	echo ${USER}
 	mkdir -p /srv/www/htdocs/php/${USER}/PHPPractice
 	chmod o+rx -R /srv/www/htdocs/php/${USER}/PHPPractice
 	rsync -ahv * /srv/www/htdocs/php/${USER}/PHPPractice
