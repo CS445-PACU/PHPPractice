@@ -4,6 +4,10 @@
 
 Use VS Code to open the folder PHP inside this project.  This folder contains an example PHP file and the necessary configuration to get the debugger working.
 
+## HTML
+
+Visual Studio Code provides [basic HTML support](https://code.visualstudio.com/Docs/languages/html).
+
 ## PHP
 
 Install the [PHP-Debug extension](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug).
