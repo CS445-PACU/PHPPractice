@@ -9,7 +9,10 @@
 
 all: copy
 
+PROJ=PHPPractice
+
 copy: 
-	mkdir -p /srv/www/htdocs/php/${USER}/PHPPractice
-	chmod o+rx -R /srv/www/htdocs/php/${USER}/PHPPractice
-	rsync -ahv * /srv/www/htdocs/php/${USER}/PHPPractice
+	echo ${USER}
+	mkdir -p /srv/www/htdocs/php/${USER}/${PROJ}
+	chmod o+rx -R /srv/www/htdocs/php/${USER}/${PROJ}
+	rsync -ahv * /srv/www/htdocs/php/${USER}/${PROJ}
